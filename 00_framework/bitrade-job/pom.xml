@@ -140,6 +140,14 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-ribbon</artifactId>
 		</dependency>
+		
+		<!-- gw: added manually -->
+		<dependency>
+			<groupId>com.sparkframework</groupId>
+			<artifactId>spark-core</artifactId>
+			<scope>system</scope>
+			<systemPath>/home/gaopeng/git/CoinExchange2/00_framework/jar/spark-core-2.6.0.jar</systemPath>
+		</dependency>
 
 	</dependencies>
 	<profiles>
@@ -202,6 +210,9 @@
 						</goals>
 					</execution>
 				</executions>
+				<configuration>
+					<includeSystemScope>true</includeSystemScope>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
