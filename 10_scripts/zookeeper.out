@@ -1,0 +1,37 @@
+2021-10-13 12:14:49,057 [myid:] - INFO  [main:QuorumPeerConfig@134] - Reading configuration from: /home/gaopeng/programs/zookeeper-3.4.10/bin/../conf/zoo.cfg
+2021-10-13 12:14:49,061 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2021-10-13 12:14:49,061 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2021-10-13 12:14:49,061 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2021-10-13 12:14:49,061 [myid:] - WARN  [main:QuorumPeerMain@113] - Either no config or no quorum defined in config, running  in standalone mode
+2021-10-13 12:14:49,069 [myid:] - INFO  [main:QuorumPeerConfig@134] - Reading configuration from: /home/gaopeng/programs/zookeeper-3.4.10/bin/../conf/zoo.cfg
+2021-10-13 12:14:49,069 [myid:] - INFO  [main:ZooKeeperServerMain@96] - Starting server
+2021-10-13 12:14:49,074 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT
+2021-10-13 12:14:49,074 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=gaopeng-CM6870
+2021-10-13 12:14:49,074 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_292
+2021-10-13 12:14:49,074 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Private Build
+2021-10-13 12:14:49,074 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+2021-10-13 12:14:49,074 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/gaopeng/programs/zookeeper-3.4.10/bin/../build/classes:/home/gaopeng/programs/zookeeper-3.4.10/bin/../build/lib/*.jar:/home/gaopeng/programs/zookeeper-3.4.10/bin/../lib/slf4j-log4j12-1.6.1.jar:/home/gaopeng/programs/zookeeper-3.4.10/bin/../lib/slf4j-api-1.6.1.jar:/home/gaopeng/programs/zookeeper-3.4.10/bin/../lib/netty-3.10.5.Final.jar:/home/gaopeng/programs/zookeeper-3.4.10/bin/../lib/log4j-1.2.16.jar:/home/gaopeng/programs/zookeeper-3.4.10/bin/../lib/jline-0.9.94.jar:/home/gaopeng/programs/zookeeper-3.4.10/bin/../zookeeper-3.4.10.jar:/home/gaopeng/programs/zookeeper-3.4.10/bin/../src/java/lib/*.jar:/home/gaopeng/programs/zookeeper-3.4.10/bin/../conf:
+2021-10-13 12:14:49,074 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2021-10-13 12:14:49,074 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2021-10-13 12:14:49,074 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2021-10-13 12:14:49,075 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2021-10-13 12:14:49,075 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2021-10-13 12:14:49,075 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=5.11.0-37-generic
+2021-10-13 12:14:49,075 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=gaopeng
+2021-10-13 12:14:49,076 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/home/gaopeng
+2021-10-13 12:14:49,076 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/gaopeng/git/CoinExchange3/10_scripts
+2021-10-13 12:14:49,079 [myid:] - INFO  [main:ZooKeeperServer@829] - tickTime set to 2000
+2021-10-13 12:14:49,080 [myid:] - INFO  [main:ZooKeeperServer@838] - minSessionTimeout set to -1
+2021-10-13 12:14:49,080 [myid:] - INFO  [main:ZooKeeperServer@847] - maxSessionTimeout set to -1
+2021-10-13 12:14:49,086 [myid:] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2181
+2021-10-13 12:14:50,874 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@192] - Accepted socket connection from /127.0.0.1:56908
+2021-10-13 12:14:50,881 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@942] - Client attempting to establish new session at /127.0.0.1:56908
+2021-10-13 12:14:50,881 [myid:] - INFO  [SyncThread:0:FileTxnLog@203] - Creating new log file: log.2b
+2021-10-13 12:14:50,889 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@687] - Established session 0x17c7b1420900000 with negotiated timeout 6000 for client /127.0.0.1:56908
+2021-10-13 12:14:51,591 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@648] - Got user-level KeeperException when processing sessionid:0x17c7b1420900000 type:create cxid:0x1d zxid:0x2d txntype:-1 reqpath:n/a Error Path:/brokers Error:KeeperErrorCode = NodeExists for /brokers
+2021-10-13 12:14:51,592 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@648] - Got user-level KeeperException when processing sessionid:0x17c7b1420900000 type:create cxid:0x1e zxid:0x2e txntype:-1 reqpath:n/a Error Path:/brokers/ids Error:KeeperErrorCode = NodeExists for /brokers/ids
+2021-10-13 12:14:51,592 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@648] - Got user-level KeeperException when processing sessionid:0x17c7b1420900000 type:create cxid:0x1f zxid:0x2f txntype:-1 reqpath:n/a Error Path:/brokers/ids/0 Error:KeeperErrorCode = NodeExists for /brokers/ids/0
+2021-10-13 12:14:52,473 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@486] - Processed session termination for sessionid: 0x17c7b1420900000
+2021-10-13 12:14:52,477 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1044] - Closed socket connection for client /127.0.0.1:56908 which had sessionid 0x17c7b1420900000
+2021-10-13 12:14:56,001 [myid:] - INFO  [SessionTracker:ZooKeeperServer@358] - Expiring session 0x17c7b12cfd10000, timeout of 6000ms exceeded
+2021-10-13 12:14:56,001 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@486] - Processed session termination for sessionid: 0x17c7b12cfd10000

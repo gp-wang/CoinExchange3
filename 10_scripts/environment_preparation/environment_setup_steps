@@ -1,0 +1,18 @@
+# environment start
+
+
+# start mysql
+# (base) gaopeng@gaopeng-CM6870:~/programs/eclipse$ systemctl status mysql
+
+# redis
+# (base) gaopeng@gaopeng-CM6870:/usr/redis$ ./redis-server redis.conf &
+
+# start zookeeper
+# (base) gaopeng@gaopeng-CM6870:~/programs/kafka_2.12-1.0.1$ bin/zookeeper-server-start.sh config/zookeeper.properties
+
+# start kafka
+# (base) gaopeng@gaopeng-CM6870:~/programs/kafka_2.12-1.0.1$ bin/kafka-server-start.sh config/server.properties
+
+# start mongodb, (need to have bitrade database, and user:bitrade, pwd:bitrade) 
+# (base) gaopeng@gaopeng-CM6870:~/programs/mongodb$ mongod --config mongodb.conf
+

@@ -17,7 +17,7 @@ apps="cloud exchange exchange-api market ucenter-api wallet chat otc-api admin b
 
 
 for app in $apps; do
-    xterm -title "$app" -hold -e "(cd ${WORK_DIR}/${app}/target;java -jar *.jar 2>&1 > $LOG_DIR/$app.log & tail -f $LOG_DIR/$app.log)" &
+    xterm -title "$app" -hold -e "(cd ${WORK_DIR}/${app}/target;java -jar -Xms512m -Xmx512m -Xmn200m -Xss256k *.jar 2>&1 > $LOG_DIR/$app.log & tail -f $LOG_DIR/$app.log)" &
     if [[ "$app" == "exchange" ]]; then
         #sleep 80
         tail -f -n0 $LOG_DIR/$app.log |  grep -qe "程序启动成功"

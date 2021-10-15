@@ -1,0 +1,46 @@
+server:
+  port: 9999
+  
+logging:
+  level:
+    root: INFO
+    org.springframework.web: info
+    com.com.bizzan.gateway: DEBUG
+    org.hibernate: ERROR
+
+spring:
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:8080"
+            allowedHeaders:
+              - content-type
+            allowedMethods:
+              - GET
+              - POST
+      routes:
+      - id: bitrade-job
+        uri: http://localhost:8001/
+        predicates:
+        - Path=/timejob/**
+      - id: bitrade-market
+        uri: http://localhost:6004/
+        predicates:
+        - Path=/market/**
+      - id: exchange-api
+        uri: http://localhost:6003/
+        predicates:
+        - Path=/exchange/**
+      - id: otc-api
+        uri: http://localhost:6006/
+        predicates:
+        - Path=/otc/**
+      - id: uc
+        uri: http://localhost:6001/
+        predicates:
+        - Path=/uc/**
+
+
+        
