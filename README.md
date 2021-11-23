@@ -1,3 +1,6 @@
+gw: Below is an opensourced Crypto Coin exchange originally developed by another organization. I added startup scripts and fixed some bugs to make it operational (still in progress).
+
+----
 # Crypto-Exchange / Coin-Exchange   
 
 # 开源代码仅供参考学习，请勿用于非法用途；
